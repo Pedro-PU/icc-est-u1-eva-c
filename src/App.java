@@ -42,7 +42,8 @@ public class App {
         System.out.println("----------------------------------------");
         lC.sortByName(books);
         System.out.println("----------------------------------------");
-        vC.printArreglo(books);        System.out.println("----------------------------------------");
+        vC.printArreglo(books);        
+        System.out.println("----------------------------------------");
         Book libro1 = lC.searchByName(books, "Python the best book");
         if(libro1 == null){
             vC.messageOrden("No se ha encontrado el libro");
